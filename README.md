@@ -2,6 +2,8 @@
   <img src="assets/apresentacao.png" alt="FaixaFlow — Da lista ao pen drive" width="100%">
 </p>
 
+<p align="center"><a href="README.md">Português</a> · <a href="README.en.md">English</a> · <a href="README.es.md">Español</a></p>
+
 <p align="center"><strong>Da lista ao pen drive.</strong><br>Windows · MP3 e MP4 · Fila de downloads · Organização por cliente</p>
 
 <p align="center"><a href="#download">Download</a> · <a href="#como-usar">Como usar</a> · <a href="CHANGELOG.md">Novidades</a> · <a href="SUPORTE.md">Suporte</a></p>
@@ -13,9 +15,9 @@ Pode adicionar novas músicas e playlists à fila enquanto os downloads continua
 ## Download
 
 <!-- release:start -->
-**[Baixar para Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/download/v1.0.0/FaixaFlow-Setup.exe)**
+**[Baixar para Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/latest/download/FaixaFlow-Setup.exe)**
 
-Versão **1.0.0** · Windows 10/11 de 64 bits · 133 MB
+Versão **1.1.0** · Windows 10/11 de 64 bits · 133 MB
 <!-- release:end -->
 
 Baixe, execute o instalador e abra o FaixaFlow. O instalador ainda não possui assinatura digital.
@@ -35,6 +37,7 @@ Também aceita links de vídeos e playlists do YouTube, um por linha.
 
 <img src="assets/tela-principal.png" alt="Tela principal do FaixaFlow" width="100%">
 
+- **Idioma:** português, inglês e espanhol, com detecção do Windows e escolha manual.
 - **Áudio e vídeo:** MP3 de 128 a 320 kbps e MP4 de até 1080p.
 - **Fila contínua:** adicione escolhas durante o atendimento.
 - **Pastas organizadas:** por cliente, estilo, artista ou nome da playlist.

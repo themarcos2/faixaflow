@@ -1,3 +1,10 @@
+# 1.1.0
+
+- Português, inglês e espanhol, com detecção do idioma do Windows e escolha manual.
+- Manual, prompt do Gemini e instalador nos três idiomas.
+- Menos leituras repetidas da entrada ao editar listas.
+- Marcadores de OCR ilegível reconhecidos também em inglês e espanhol.
+
 # Novidades
 
 ## 1.0.0 — Primeiro lançamento público
