@@ -76,13 +76,14 @@ playlists prontas usam seu nome na subpasta do cliente.
 ## Download
 
 <!-- release:start -->
-**Primeiro lançamento em preparação.** O instalador Windows ainda precisa ser
-compilado, validado e publicado. Quando estiver disponível, o download será
-**FaixaFlow-Setup.exe** na seção [Releases](../../releases).
+**[Baixar FaixaFlow para Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/download/v1.0.0/FaixaFlow-Setup.exe)**
+
+Versão **1.0.0** · Windows 10/11 de 64 bits · aproximadamente 133 MB.
+Veja as [notas desta versão](https://github.com/themarcos2/faixaflow/releases/tag/v1.0.0).
 <!-- release:end -->
 
-O instalador foi preparado para incluir Python, yt-dlp, FFmpeg, FFprobe e Deno.
-O operador não precisa usar terminal ou compilar o aplicativo. Requer Windows 10/11 de 64 bits.
+O instalador inclui Python, yt-dlp, FFmpeg, FFprobe e Deno.
+O operador não precisa usar terminal ou compilar o aplicativo. O instalador ainda não tem assinatura digital.
 
 Este repositório reúne **apresentação, imagens e downloads**. O código do aplicativo
 é mantido em um repositório privado separado.

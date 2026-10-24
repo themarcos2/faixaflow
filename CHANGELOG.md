@@ -1,6 +1,6 @@
 # Novidades
 
-## 1.0.0 — Primeiro lançamento público preparado
+## 1.0.0 — Primeiro lançamento público
 
 A versão consolida o fluxo construído durante o desenvolvimento interno:
 
@@ -11,5 +11,7 @@ A versão consolida o fluxo construído durante o desenvolvimento interno:
 - Pastas diretas por cliente e diagnóstico exportável.
 - Distribuição em instalador EXE e avisos de atualização antes e depois de instalar.
 
-Publicação pendente da primeira compilação e validação no Windows.
+Instalador compilado e validado em ambiente Windows automatizado, incluindo instalação, atualização e preservação dos dados de teste.
 As versões internas não são apresentadas como releases públicas.
+
+[Baixar o instalador e ver as notas](https://github.com/themarcos2/faixaflow/releases/tag/v1.0.0).
