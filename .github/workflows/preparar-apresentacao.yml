@@ -1,0 +1,41 @@
+name: Preparar apresentacao publica
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [apresentacao-inicial.zip, .github/workflows/preparar-apresentacao.yml]
+permissions:
+  contents: write
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - name: Publicar os arquivos na estrutura do repositorio
+        shell: python
+        run: |
+          from pathlib import Path
+          import hashlib, zipfile, stat, subprocess
+          archive=Path('apresentacao-inicial.zip')
+          if not archive.is_file():
+              print('Preparacao inicial ja concluida.')
+              raise SystemExit(0)
+          if hashlib.sha256(archive.read_bytes()).hexdigest()!='72b1910fc8e2be6eea2bfe1cbce2b7d334ffaf3406601159ca280965ee5ae4d9':
+              raise SystemExit('Checksum do pacote inicial divergente')
+          with zipfile.ZipFile(archive) as z:
+              members=z.infolist()
+              if len(members)>400 or sum(i.file_size for i in members)>25*1024*1024:
+                  raise SystemExit('Pacote fora dos limites')
+              for entry in members:
+                  path=Path(entry.filename)
+                  if path.is_absolute() or '..' in path.parts or '.git' in path.parts or stat.S_ISLNK(entry.external_attr>>16) or entry.filename.startswith('.github/workflows/'):
+                      raise SystemExit('Caminho nao permitido: '+entry.filename)
+              z.extractall('.')
+          archive.unlink()
+          subprocess.run(['git','config','user.name','github-actions[bot]'],check=True)
+          subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True)
+          subprocess.run(['git','add','--all'],check=True)
+          if subprocess.run(['git','diff','--cached','--quiet']).returncode:
+              subprocess.run(['git','commit','-m','Preparar apresentacao publica'],check=True)
+              subprocess.run(['git','push','origin','HEAD:main'],check=True)
