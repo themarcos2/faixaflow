@@ -1,0 +1,17 @@
+name: Sugerir uma melhoria
+description: Uma ideia para facilitar o atendimento e manter o programa leve.
+title: "[Sugestão] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Qual situação do atendimento você quer melhorar?
+      description: Um exemplo do uso diário ajuda a entender a necessidade.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Como você imagina que deveria funcionar?
+    validations:
+      required: true

@@ -1,0 +1,41 @@
+name: Relatar uma falha
+description: Conte em que etapa aconteceu e qual mensagem apareceu.
+title: "[Falha] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use Mais → Exportar diagnóstico para obter o registro. Revise os dados antes de compartilhar; não publique cookies, senhas ou listas de clientes."
+  - type: input
+    id: version
+    attributes:
+      label: Versão do FaixaFlow
+      placeholder: "Ex.: 1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Em qual etapa aconteceu?
+      options:
+        - Colar ou importar a lista
+        - Pesquisar ou gerar links
+        - Baixar MP3
+        - Baixar MP4
+        - Fila, pausa ou recuperação
+        - Pastas ou cópia USB
+        - Instalação ou atualização
+        - Outra etapa
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: O que você fez e o que aconteceu?
+      description: Descreva os passos, o resultado esperado e a mensagem exibida.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Diagnóstico ou mensagem de erro
+      description: Anexe o TXT revisado ou cole apenas o trecho relevante do registro.
