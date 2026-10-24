@@ -1,3 +1,11 @@
+# 1.2.0
+
+- Interface escura com áreas distintas para cliente, lista e downloads.
+- Limpar junto da entrada; música ou vídeo e escopo da playlist perguntados ao colar cada link.
+- Links de Mix conservam o vídeo de referência. A opção individual baixa essa faixa; o Mix lê até 100 faixas.
+- Correção da cadeia de certificados do atualizador, mantendo a validação HTTPS.
+- Prompt, manual e interface em português, inglês e espanhol.
+
 # 1.1.0
 
 - Português, inglês e espanhol, com detecção do idioma do Windows e escolha manual.
