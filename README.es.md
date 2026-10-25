@@ -10,7 +10,7 @@ FaixaFlow organiza el trabajo musical de tu tienda. Pega una lista de Gemini o u
 
 **[Descargar para Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/latest/download/FaixaFlow-Setup.exe)**
 
-Versión **1.2.1** · Windows 10/11 de 64 bits
+Versión **1.2.2** · Windows 10/11 de 64 bits
 
 Ejecuta el instalador y abre FaixaFlow. El instalador aún no tiene firma digital.
 

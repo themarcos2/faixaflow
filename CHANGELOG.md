@@ -1,3 +1,10 @@
+# 1.2.2
+
+- Preparação de nomes e pastas mais rápida em listas grandes.
+- Instalador menor, mantendo as ferramentas incluídas.
+- Verificação de espaço antes de baixar uma atualização.
+- Restauração dos manuais e prompts em todos os idiomas se a atualização falhar.
+
 # 1.2.1
 
 - Faixas individuais do Spotify perguntam MP3 ou MP4 ao colar e podem entrar na fila durante o download.
