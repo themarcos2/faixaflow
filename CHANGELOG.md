@@ -1,3 +1,12 @@
+# 1.2.1
+
+- Faixas individuais do Spotify perguntam MP3 ou MP4 ao colar e podem entrar na fila durante o download.
+- Mudar primeira faixa/playlist inteira preserva os formatos já escolhidos por link.
+- Faixas avulsas usam a pasta de músicas ou vídeos; subpastas pelo título ficam para playlists.
+- Importações usam a mesma validação de certificados do atualizador.
+- Resposta mais ágil em entradas extensas e contagem da fila sem releituras dos textos.
+- Busca de vídeo separada da busca de áudio; ajustes de contraste, espaçamento e controles em janelas pequenas.
+
 # 1.2.0
 
 - Interface escura com áreas distintas para cliente, lista e downloads.

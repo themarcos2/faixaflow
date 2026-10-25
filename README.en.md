@@ -10,7 +10,7 @@ FaixaFlow helps music shops turn customer song lists into organized downloads. P
 
 **[Download for Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/latest/download/FaixaFlow-Setup.exe)**
 
-Version **1.2.0** · Windows 10/11 64-bit
+Version **1.2.1** · Windows 10/11 64-bit
 
 Run the installer and open FaixaFlow. The installer is currently unsigned.
 

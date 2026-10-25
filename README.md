@@ -17,7 +17,7 @@ Pode adicionar novas músicas e playlists à fila enquanto os downloads continua
 <!-- release:start -->
 **[Baixar para Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/latest/download/FaixaFlow-Setup.exe)**
 
-Versão **1.2.0** · Windows 10/11 de 64 bits · 133 MB
+Versão **1.2.1** · Windows 10/11 de 64 bits · 133 MB
 <!-- release:end -->
 
 Baixe, execute o instalador e abra o FaixaFlow. O instalador ainda não possui assinatura digital.
