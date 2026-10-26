@@ -33,7 +33,7 @@ You can also paste individual YouTube video or playlist links, one per line.
 - **Pause and resume:** continue interrupted sessions.
 - **USB delivery:** copy the completed files to a USB drive.
 
-<img src="assets/tela-principal.png" alt="FaixaFlow interface; screenshot shows the Portuguese version" width="100%">
+<img src="assets/tela-principal-1.3.0.png" alt="FaixaFlow interface; screenshot shows the Portuguese version" width="100%">
 
 ## Import lists
 

@@ -35,7 +35,7 @@ Também aceita links de vídeos e playlists do YouTube, um por linha.
 
 ## Tudo em uma tela
 
-<img src="assets/tela-principal.png" alt="Tela principal do FaixaFlow" width="100%">
+<img src="assets/tela-principal-1.3.0.png" alt="Tela principal do FaixaFlow" width="100%">
 
 - **Idioma:** português, inglês e espanhol, com detecção do Windows e escolha manual.
 - **Áudio e vídeo:** MP3 de 128 a 320 kbps, com qualidade por link, e MP4 de até 1080p.

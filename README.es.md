@@ -33,7 +33,7 @@ También acepta enlaces de vídeos individuales y playlists de YouTube, uno por 
 - **Pausar y continuar:** retoma sesiones interrumpidas.
 - **Entrega USB:** copia los archivos terminados a una memoria USB.
 
-<img src="assets/tela-principal.png" alt="Interfaz de FaixaFlow; captura de la versión en portugués" width="100%">
+<img src="assets/tela-principal-1.3.0.png" alt="Interfaz de FaixaFlow; captura de la versión en portugués" width="100%">
 
 ## Importar listas
 
