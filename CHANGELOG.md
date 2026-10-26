@@ -1,3 +1,13 @@
+# 1.3.0
+
+- Qualidade de áudio escolhida ao colar cada link, inclusive playlists e novas inclusões na fila.
+- Botão Limpar fila com confirmação; conserva os arquivos salvos e a entrada não enviada.
+- A fila limpa permanece vazia ao reabrir o programa.
+- Corrigida a numeração de playlists com a caixa Numerar desmarcada.
+- Retomada mantém o bitrate de cada link e detecta arquivos de mídia danificados.
+- Menos releituras de disco ao acrescentar playlists ao mesmo atendimento.
+- Manual e novidades atualizados em português, inglês e espanhol.
+
 # 1.2.2
 
 - Preparação de nomes e pastas mais rápida em listas grandes.

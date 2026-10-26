@@ -10,7 +10,7 @@ FaixaFlow helps music shops turn customer song lists into organized downloads. P
 
 **[Download for Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/latest/download/FaixaFlow-Setup.exe)**
 
-Version **1.2.2** · Windows 10/11 64-bit
+Version **1.3.0** · Windows 10/11 64-bit
 
 Run the installer and open FaixaFlow. The installer is currently unsigned.
 
@@ -26,10 +26,10 @@ You can also paste individual YouTube video or playlist links, one per line.
 ## Features
 
 - **Languages:** Portuguese, English and Spanish. Detects the Windows display language; manual choice is available under **More → Language / Idioma**.
-- **Audio and video:** MP3 from 128 to 320 kbps; MP4 up to 1080p.
-- **Live queue:** add selections during a download.
+- **Audio and video:** MP3 from 128 to 320 kbps with per-link quality; MP4 up to 1080p.
+- **Live queue:** add selections during a download or clear the queue.
 - **Organized folders:** by customer, genre, artist or playlist title.
-- **Original order:** optional numbering follows the customer's list.
+- **Original order:** optional numbering for song lists and playlists.
 - **Pause and resume:** continue interrupted sessions.
 - **USB delivery:** copy the completed files to a USB drive.
 

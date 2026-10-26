@@ -10,7 +10,7 @@ FaixaFlow organiza el trabajo musical de tu tienda. Pega una lista de Gemini o u
 
 **[Descargar para Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/latest/download/FaixaFlow-Setup.exe)**
 
-Versión **1.2.2** · Windows 10/11 de 64 bits
+Versión **1.3.0** · Windows 10/11 de 64 bits
 
 Ejecuta el instalador y abre FaixaFlow. El instalador aún no tiene firma digital.
 
@@ -26,10 +26,10 @@ También acepta enlaces de vídeos individuales y playlists de YouTube, uno por 
 ## Funciones
 
 - **Idiomas:** portugués, inglés y español. Detecta el idioma de Windows; puedes elegirlo en **Más → Language / Idioma**.
-- **Audio y vídeo:** MP3 de 128 a 320 kbps; MP4 hasta 1080p.
-- **Cola continua:** añade selecciones durante la descarga.
+- **Audio y vídeo:** MP3 de 128 a 320 kbps con calidad por enlace; MP4 hasta 1080p.
+- **Cola continua:** añade selecciones durante la descarga o vacía la cola.
 - **Carpetas organizadas:** por cliente, género, artista o título de playlist.
-- **Orden original:** numeración opcional para seguir la lista del cliente.
+- **Orden original:** numeración opcional en listas de canciones y playlists.
 - **Pausar y continuar:** retoma sesiones interrumpidas.
 - **Entrega USB:** copia los archivos terminados a una memoria USB.
 

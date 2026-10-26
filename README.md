@@ -17,7 +17,7 @@ Pode adicionar novas músicas e playlists à fila enquanto os downloads continua
 <!-- release:start -->
 **[Baixar para Windows (.exe)](https://github.com/themarcos2/faixaflow/releases/latest/download/FaixaFlow-Setup.exe)**
 
-Versão **1.2.2** · Windows 10/11 de 64 bits · 115 MB
+Versão **1.3.0** · Windows 10/11 de 64 bits · 115 MB
 <!-- release:end -->
 
 Baixe, execute o instalador e abra o FaixaFlow. O instalador ainda não possui assinatura digital.
@@ -38,10 +38,10 @@ Também aceita links de vídeos e playlists do YouTube, um por linha.
 <img src="assets/tela-principal.png" alt="Tela principal do FaixaFlow" width="100%">
 
 - **Idioma:** português, inglês e espanhol, com detecção do Windows e escolha manual.
-- **Áudio e vídeo:** MP3 de 128 a 320 kbps e MP4 de até 1080p.
-- **Fila contínua:** adicione escolhas durante o atendimento.
+- **Áudio e vídeo:** MP3 de 128 a 320 kbps, com qualidade por link, e MP4 de até 1080p.
+- **Fila contínua:** adicione escolhas durante o atendimento ou limpe a fila com um clique.
 - **Pastas organizadas:** por cliente, estilo, artista ou nome da playlist.
-- **Ordem da lista:** numeração opcional para seguir o papel do cliente.
+- **Ordem da lista:** numeração opcional, também nas playlists, para seguir a lista do cliente.
 - **Pausar e continuar:** retome trabalhos interrompidos.
 - **Entrega no pen drive:** copie os arquivos ao terminar.
 
